@@ -1,4 +1,4 @@
-# TVBox Custom TV Channel Menu and Live Source Interface Automatic Verification and Update Tool
+# Television channel menu customization and live source interface update tool
 
 Customize channel menus and automatically obtain and update the latest live source interfaces based on template files, verify, and generate usable channel interface files.
 
@@ -9,7 +9,7 @@ Customize channel menus and automatically obtain and update the latest live sour
 - Custom templates for creating desired channel categories and order
 - Supports multiple source acquisition methods: online search, multicast source, hotel source, subscription source
 - Interface speed testing and verification, with priority on response time and resolution, filtering out ineffective interfaces
-- Scheduled execution at 8:00 AM Beijing time daily
+- Scheduled execution at 6:00 AM Beijing time daily
 - Supports various execution methods: workflows, command line, GUI software, Docker
 - For more features, see [Config parameter](./docs/config_en.md)
 
@@ -37,12 +37,33 @@ pipenv run build
 pipenv run ui
 ```
 
+![Update tool software](./docs/images/ui.png 'Update tool software')
+
 ### Method 3: Docker Update
 
+- requests: Lightweight, low performance requirements, fast update speed, stability uncertain (recommend this version only for subscription sources)
+- driver: Higher performance requirements, slower update speed, high stability, high success rate (use this version for online search, multicast sources)
+
 ```bash
-1. Pull the image: docker pull guovern/tv:latest
-2. Run the container: docker run -d -p 8000:8000 tv
-3. Access (domain:8000) to check the update results
+1. Pull the image:
+
+For requests version:
+docker pull guovern/tv-requests:latest
+
+For driver version:
+docker pull guovern/tv-driver:latest
+
+2. Run the container: docker run --name tv-requests or driver -d -p 8000:8000 guovern/tv-requests or driver
+
+3. Check the update results: Visit (domain:8000)
+
+4. Customization (optional):
+
+- Modify the template:
+docker cp your_system_path/user-demo.txt tv-requests or driver:/app/user-demo.txt
+
+- Modify the configuration:
+docker cp your_system_path/user-config.py tv-requests or driver:/app/user-config.py
 ```
 
 #### Note: Link to the result file after updates of methods one to three: http://local ip:8000
@@ -61,22 +82,6 @@ If you don't want to bother, and my configuration just meets your needs, you can
 ## Changelog
 
 [Changelog](./CHANGELOG.md)
-
-## Disclaimer
-
-This project is provided for programming learning and research resources. The data collected in the project comes from the network, and the developer does not make any guarantees about the accuracy, completeness, or reliability of the data.
-
-The developer is not responsible for any direct or indirect losses that may be caused by the use of these codes or data. Users should judge the legality and risk of their use by themselves.
-
-The code and data of this project are only for learning and research use, and must not be used for any commercial purposes. Anyone or organization should abide by relevant laws and regulations when using it, respect and protect the rights and interests of developers.
-
-If you use the code or data of this project, it means that you have understood and agreed to this disclaimer. If you do not agree with this disclaimer, you should stop using the code and data of this project immediately.
-
-In addition, the code and data of this project may be updated irregularly, but there is no guarantee of the timeliness and accuracy of the update, nor the stability and functionality of the code.
-
-In any case, the developer and any contributor do not assume any responsibility for any damage or other liability caused by the use or inability to use the code or data of this project.
-
-Using the code or data of this project means that you have understood and accepted these terms.
 
 ## License
 
