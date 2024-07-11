@@ -2,6 +2,24 @@
 
 Customize channel menus and automatically obtain and update the latest live source interfaces based on template files, verify, and generate usable channel interface files.
 
+<p align="center">
+  <a href="https://github.com/Guovin/TV/releases/latest">
+    <img src="https://img.shields.io/github/v/release/guovin/tv" />
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-%20%3E%3D%203.8-47c219" />
+  </a>
+  <a href="https://github.com/Guovin/TV/releases/latest">
+    <img src="https://img.shields.io/github/downloads/guovin/tv/total" />
+  </a>
+  <a href="https://hub.docker.com/repository/docker/guovern/tv-requests">
+    <img src="https://img.shields.io/docker/pulls/guovern/tv-requests?label=docker:requests" />
+  </a>
+   <a href="https://hub.docker.com/repository/docker/guovern/tv-driver">
+    <img src="https://img.shields.io/docker/pulls/guovern/tv-driver?label=docker:driver" />
+  </a>
+</p>
+
 [中文](./README.md) | English
 
 ## Features
@@ -41,8 +59,10 @@ pipenv run ui
 
 ### Method 3: Docker Update
 
-- requests: Lightweight, low performance requirements, fast update speed, stability uncertain (recommend this version only for subscription sources)
-- driver: Higher performance requirements, slower update speed, high stability, high success rate (use this version for online search, multicast sources)
+- requests: Lightweight, low performance requirements, fast update speed, stability uncertain (Recommend using this version for the subscription source)
+- driver: Higher performance requirements, slower update speed, high stability, high success rate (Online search, multicast source use this version)
+
+It's recommended to try each one and choose the version that suits you. If you can get results with requests for online searches and multicast sources, prioritize choosing the version that uses requests.
 
 ```bash
 1. Pull the image:

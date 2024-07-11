@@ -2,6 +2,24 @@
 
 自定义频道菜单，根据模板文件的直播源接口，自动获取并更新最新的直播源接口，校验并生成可用的频道接口文件
 
+<p align="center">
+  <a href="https://github.com/Guovin/TV/releases/latest">
+    <img src="https://img.shields.io/github/v/release/guovin/tv" />
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-%20%3E%3D%203.8-47c219" />
+  </a>
+  <a href="https://github.com/Guovin/TV/releases/latest">
+    <img src="https://img.shields.io/github/downloads/guovin/tv/total" />
+  </a>
+  <a href="https://hub.docker.com/repository/docker/guovern/tv-requests">
+    <img src="https://img.shields.io/docker/pulls/guovern/tv-requests?label=docker:requests" />
+  </a>
+   <a href="https://hub.docker.com/repository/docker/guovern/tv-driver">
+    <img src="https://img.shields.io/docker/pulls/guovern/tv-driver?label=docker:driver" />
+  </a>
+</p>
+
 [English](./README_en.md) | 中文
 
 ## 特点
@@ -41,8 +59,10 @@ pipenv run ui
 
 ### 方式三：Docker 更新
 
-- requests：轻量级，性能要求低，更新速度快，稳定性不确定（只使用订阅源推荐此版本）
-- driver：性能要求较高，更新速度较慢，稳定性、成功率高（使用在线搜索、组播源使用此版本）
+- requests：轻量级，性能要求低，更新速度快，稳定性不确定（推荐订阅源使用此版本）
+- driver：性能要求较高，更新速度较慢，稳定性、成功率高（在线搜索、组播源使用此版本）
+
+建议都试用一次，选择自己合适的版本，在线搜索和组播源使用 requests 能拿到结果的话，优先选择 requests 版本。
 
 ```bash
 1. 拉取镜像：
