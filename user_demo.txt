@@ -57,15 +57,15 @@ CCTV17,http://120.210.193.151:8006/120000001002/XMTcctv-17hd/index.m3u8
 CCTV怀旧剧场,http://120.210.193.151:8006/120000001002/XMThjjc/1.m3u8
 CCTV风云剧场,http://120.210.193.151:8006/120000001002/XMTfyjc/1.m3u8
 CCTV第一剧场,http://120.210.193.151:8006/120000001002/XMTdyjc/1.m3u8
-CCTV风云音乐,http://120.210.193.151:8006/120000001002/XMTfyyy/1.m3u8
-CCTV风云足球,http://120.210.193.151:8006/120000001002/XMTfyzq/1.m3u8
-CCTV高尔夫网球,http://120.210.193.151:8006/120000001002/XMTgolf/1.m3u8
-CCTV台球,http://120.210.193.151:8006/120000001002/XMTystq/1.m3u8
-CCTV电视指南,http://120.210.193.151:8006/120000001002/XMTdszn/1.m3u8
-CCTV央视精品,http://120.210.193.151:8006/120000001002/XMTysjp/1.m3u8
-CCTV女性时尚,http://120.210.193.151:8006/120000001002/XMTnxss/1.m3u8
-CCTV兵器时代,http://120.210.193.151:8006/120000001002/XMTbqsd/1.m3u8
-CCTV世界地理,http://120.210.193.151:8006/120000001002/XMTsjdl/1.m3u8
+风云音乐,http://120.210.193.151:8006/120000001002/XMTfyyy/1.m3u8
+风云足球,http://120.210.193.151:8006/120000001002/XMTfyzq/1.m3u8
+高尔夫网球,http://120.210.193.151:8006/120000001002/XMTgolf/1.m3u8
+台球,http://120.210.193.151:8006/120000001002/XMTystq/1.m3u8
+电视指南,http://120.210.193.151:8006/120000001002/XMTdszn/1.m3u8
+央视精品,http://120.210.193.151:8006/120000001002/XMTysjp/1.m3u8
+女性时尚,http://120.210.193.151:8006/120000001002/XMTnxss/1.m3u8
+兵器时代,http://120.210.193.151:8006/120000001002/XMTbqsd/1.m3u8
+世界地理,http://120.210.193.151:8006/120000001002/XMTsjdl/1.m3u8
 
 卫视频道,#genre#
 安徽卫视,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/anhuistv/1.m3u8
@@ -134,8 +134,8 @@ CCTV世界地理,http://120.210.193.151:8006/120000001002/XMTsjdl/1.m3u8
 纬来体育,http://hls.szsummer.cn/live/446035/playlist.m3u8?k=32f9ec7c13e4b390289143a8e1b2a898&t=1840341130#https://cloud.yumixiu768.com/tmp/123.m3u8#http://50.7.238.114:8278/videolandsport/playlist.m3u8?tid=MD2D5343800653438006&ct=19234&tsum=1be724fb8246abfedaf2bd088ec98f03#rtmp://f13h.mine.nu/sat/tv721
 CCTV5,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226019/index.m3u8
 CCTV5+,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225603/index.m3u8
-五星体育,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281#http://[2409:8087:5e08:24::15]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19594820240419041339000523#http://[2409:8087:5e08:24::15]:6610/000000001000/2000000002000000007/index.m3u8?IAS
-广东体育,http://113.98.122.166:9901/tsfile/live/1057_1.m3u8?key=txiptv#,http://115.45.102.23:8888/udp/239.77.0.168:5146#http://rfx2018.55555.io:2345/udp/239.77.0.112:5146#http://171.108.239.95:8181/tsfile/live/1004_1.m3u8
+五星体育,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281
+广东体育,http://113.98.122.166:9901/tsfile/live/1057_1.m3u8?key=txiptv
 山东体育,http://fangke.blueswords.com:9901/tsfile/live/0111_1.m3u8
 劲爆体育,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000008/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000008&IASHttpSessionId=OTT19019320240419154124000281
 风云足球,http://biaozhun114.com/tv/v6hubei.php?id=20
