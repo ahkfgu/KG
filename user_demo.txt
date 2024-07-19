@@ -53,18 +53,17 @@ CCTV14,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/cc
 CCTV15,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/cctv-15/1.m3u8
 CCTV16,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/HD-4000k-1080P-cctv16/1.m3u8
 CCTV17,http://120.210.193.151:8006/120000001002/XMTcctv-17hd/index.m3u8
-
 CCTV怀旧剧场,http://120.210.193.151:8006/120000001002/XMThjjc/1.m3u8
 CCTV风云剧场,http://120.210.193.151:8006/120000001002/XMTfyjc/1.m3u8
 CCTV第一剧场,http://120.210.193.151:8006/120000001002/XMTdyjc/1.m3u8
 风云音乐,http://120.210.193.151:8006/120000001002/XMTfyyy/1.m3u8
 风云足球,http://120.210.193.151:8006/120000001002/XMTfyzq/1.m3u8
 高尔夫网球,http://120.210.193.151:8006/120000001002/XMTgolf/1.m3u8
-台球,http://120.210.193.151:8006/120000001002/XMTystq/1.m3u8
+央视台球,http://120.210.193.151:8006/120000001002/XMTystq/1.m3u8
 电视指南,http://120.210.193.151:8006/120000001002/XMTdszn/1.m3u8
-央视精品,http://120.210.193.151:8006/120000001002/XMTysjp/1.m3u8
+央视文化精品,http://120.210.193.151:8006/120000001002/XMTysjp/1.m3u8
 女性时尚,http://120.210.193.151:8006/120000001002/XMTnxss/1.m3u8
-兵器时代,http://120.210.193.151:8006/120000001002/XMTbqsd/1.m3u8
+兵器科技,http://120.210.193.151:8006/120000001002/XMTbqsd/1.m3u8
 世界地理,http://120.210.193.151:8006/120000001002/XMTsjdl/1.m3u8
 
 卫视频道,#genre#
@@ -149,13 +148,11 @@ RedBullTV,http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u
 CHC家庭影院,http://120.210.193.151:8006/120000001002/XMTjtyy/1.m3u8
 CHC动作电影,http://120.210.193.151:8006/120000001002/XMTdzdy/1.m3u8
 CHC影迷电影,http://120.210.193.151:8006/120000001002/XMTgqdy/1.m3u8
-
 超级电影,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/HD-4000k-1080P-NEWTV06/1.m3u8
 超级电视剧,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/HD-4000k-1080P-NEWTV08/1.m3u8
 超级综艺,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/HD-4000k-1080P-NEWTV03/1.m3u8
 古装剧场,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/guzhuangjc/1.m3u8
 动作电影,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/dongzuody/1.m3u8
-
 精品综合,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/mingxingdp/1.m3u8
 金牌综艺,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/saishijx/1.m3u8
 黑莓电影,http://120.210.193.151:8006/120000001001/wlds:8080/ysten-business/live/jdianying/1.m3u8
@@ -214,9 +211,6 @@ TVB亚洲武侠,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist
 TVB娱乐新闻台,http://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 TVB-J2台,http://1.65.195.85:9981/stream/channelid/2082072924?ticket=4b3174e5f68a673f0c11bc3443bc52b1663d94f0&profile=pass
 TVB新闻,http://1.65.195.85:9981/stream/channelid/2051586642?profile=pass
-TVB-财经,http://1.65.195.85:9981/stream/channelid/1781676223?profile=pass
-TVB PEARL,http://1.65.195.85:9981/stream/channelid/1803382046?profile=pass
-TVB-JADE,https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8
 明珠台,http://8.218.11.245:91/api/channel/9vem6/8mz321.m3u8
 翡翠台,http://8.218.11.245:91/api/channel/9vem6/z01Fx4.m3u8
 緯來體育,https://epg.pw/stream/65161be2ecd7c7b2e054dbac30922b2673b4eff6497b77c71bb81215aa826cc4.m3u8
@@ -226,14 +220,3 @@ TVB-JADE,https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/pla
 新加坡中文台,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8?zshijd
 环球电视,http://zb.xzxwhcb.com:9999/hls/world.m3u8
 东森电影,http://ali.hlspull.yximgs.com/live/huanqiuhklivejowdxnjltdjhecvxcjjejjejyhjdyduojuomdfjhjjjdjsjy.flv
-龙祥时代,http://50.7.238.114:8278/lungxiangtime_twn/playlist.m3u8?tid=MADA6805114368051143&ct=18392&tsum=d6a1f02ca9abd5368d2a365e40247ae8
-中视,http://ali.hlspull.yximgs.com/live/huanqiuhklivejphfwnmfdcjfxcvhjjwjfbfjdyujjnmfcbsfjejtyhsdjs.flv
-中天综合,http://50.7.238.114:8278/ctizhonghe/playlist.m3u8?tid=MBBB1520797915207979&ct=19193&tsum=3a6f7f0c591c2ec6678d51b741f290b2
-台视新闻台,http://38.64.72.148:80/hls/modn/list/4013/chunklist1.m3u8
-中视新闻台,http://livetv.skycf.eu.org/live.m3u8?c=6
-中天亚洲台,http://livetv.skycf.eu.org/live.m3u8?c=3
-中天新闻台,http://154.9.228.245:741/smt.php?id=ctinews
-公视新闻台,http://livetv.skycf.eu.org/live.m3u8?c=8
-民视新闻台,http://38.64.72.148:80/hls/modn/list/4012/chunklist1.m3u8
-三立新闻台,https://epg.pw/stream/6b49e3faa38adda85abab446f032dc1e686baa0760a9cfa66e2df8fd6fe3b445.m3u8
-华视新闻台,http://livetv.skycf.eu.org/live.m3u8?c=13
